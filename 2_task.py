@@ -1,6 +1,6 @@
 num_year = int(input('ВВедите номер года: '))
 
-diff_years = abs(num_year-1996)%12
+diff_years = (num_year-1996)%12
 
 match diff_years:
     case 0:
@@ -27,6 +27,3 @@ match diff_years:
         print('Год собаки')
     case 11:
         print('Год свиньи')
-
-
-    
