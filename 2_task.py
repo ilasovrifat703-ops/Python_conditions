@@ -1,8 +1,8 @@
 num_year = int(input('ВВедите номер года: '))
 
-diff_years = (num_year-1996)%12
+cycle_index = (num_year-1996)%12
 
-match diff_years:
+match cycle_index:
     case 0:
         print('Год крысы')
     case 1:
